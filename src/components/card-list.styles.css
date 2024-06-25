@@ -1,0 +1,20 @@
+.card-list{
+    width:85w;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-gap:20px;
+}
+.card-container{
+    display:flex;
+    flex-direction:column;
+    background-color:#95dada;
+    border:1px solid grey;
+    border-radius:5px;
+    padding:25px;
+    cursor:pointer;
+    -moz-osx-soothing:grayscale;
+    backface-visibility:hidden;
+    transform:translateZ(0);
+    transition:transfoem 0.35s ease-out;
+}
